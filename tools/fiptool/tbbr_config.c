@@ -43,6 +43,11 @@ toc_entry_t toc_entries[] = {
 		.cmdline_name = "scp-fw"
 	},
 	{
+		.name = "Amlogic SCP User Task Firmware BL301",
+		.uuid = { 0xAABBCCDD, 0xABCD, 0xEFEF, 0xAB, 0xCD, { 0x12, 0x34, 0x56, 0x78, 0xAB, 0xCD } },
+		.cmdline_name = "amlogic-scp-task-fw",
+	},
+	{
 		.name = "EL3 Runtime Firmware BL31",
 		.uuid = UUID_EL3_RUNTIME_FIRMWARE_BL31,
 		.cmdline_name = "soc-fw"
